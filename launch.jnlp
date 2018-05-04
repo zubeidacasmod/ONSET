@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://romuluslibrary-thezfiles.rhcloud.com/onset" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>JavaApplication1</title>
+        <vendor>metalmouth</vendor>
+        <homepage href=""/>
+        <description>JavaApplication1</description>
+        <description kind="short">JavaApplication1</description>
+        
+        
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="JavaApplication1.jar" main="true"/>
+        
+        
+    </resources>
+    <application-desc main-class="javaapplication1.ONSETApplet">
+        
+    </application-desc>
+</jnlp>
